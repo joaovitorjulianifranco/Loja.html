@@ -11,23 +11,38 @@
     <header class="top-header">
         <button type="menu" class="menu-icon" menuitem="role" onclick="getSelection()">
             <span class="material-symbols-outlined">menu</span>
-            <div class="menu-icon" data-type="menu-selectors" data-name="menu-icon" id="Menu">
+            <div class="menu-icon" data-type="-menu-selectors" data-name="menu-icon" id="Menu">
                 <select aria-label="menu-icon" name="menu" class="active">
-                    <optgroup label="Login">
-                        <option><a href="#">Login</option></li>
-                        <option><a href="#">Cadastrar</option></li>
-                    </optgroup>
                     <optgroup label="Inicio">
-                        <option><a href="#">Home</a></option>
-                        <option><a href="#">Produtos</a></option>
+                        <li class="nav-link"><option><a href="#">Home</a></option></li>
+                        <li class="nav-link"><option><a href="#">Produtos</a></option></li>
                     </optgroup>
                     <optgroup label="Informações">
-                        <option><a href="#">Contato</a> </option>
-                        <option><a href="#">Carreira</a></option>
+                        <li><a href="#">Contato</a> </li>
+                        <li><a href="#">Carreira</a></li>
                     </optgroup><br>
                 </select>
             </div>
-        </button> 
+        </button>
     </header>
+    <!--Rodapé-->
+    <footer class="bg-dark text-light">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-4">
+                    <ul class="nav inline-flex">
+                        <li class="nav-link"><a href="#">Contato</a></li>
+                        <li class="nav-link"><a href="#">Carreira</a></li>
+                        <li class="nav-link"><a href="#">Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="col-8">
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
